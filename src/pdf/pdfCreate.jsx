@@ -1,4 +1,5 @@
 import React from "react";
+import "./pdfCreate.css";
 import pdfMake from "pdfmake/build/pdfmake";
 import pdfFonts from "pdfmake/build/vfs_fonts";
 pdfMake.vfs = pdfFonts.pdfMake.vfs;
@@ -89,9 +90,11 @@ const PdfCreate = () => {
   };
 
   return (
-    <div>
+    <div className="pdf-create">
       <h1>Download PDF</h1>
-      <button onClick={downloadPdf}>Download PDF</button>
+      <div className="pdfbutton">
+        <button onClick={downloadPdf}>Download PDF</button>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,12 @@
+.pdf-create {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .pdfbutton {
+    button {
+      border: none;
+    }
+  }
+}
