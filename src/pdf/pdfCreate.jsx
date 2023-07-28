@@ -91,7 +91,7 @@ const PdfCreate = () => {
 
   return (
     <div className="pdf-create">
-      <h1>Download PDF</h1>
+      <h1>PDF</h1>
       <div className="pdfbutton">
         <button onClick={downloadPdf}>Download PDF</button>
       </div>
